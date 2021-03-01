@@ -1,7 +1,7 @@
 #include "SceneManager.h"
-#include "TitleScene.h"
-#include "GameScene.h"
-#include "ResultScene.h"
+#include "TitleScene/TitleScene.h"
+#include "GameScene/GameScene.h"
+#include "ResultScene/ResultScene.h"
 
 SceneID g_SceneID = SceneID::SceneID_Title;
 
