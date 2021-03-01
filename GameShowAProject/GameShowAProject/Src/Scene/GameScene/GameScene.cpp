@@ -1,5 +1,5 @@
 #include "GameScene.h"
-#include "SceneManager.h"
+#include "../SceneManager.h"
 #include "DxLib.h"
 
 extern SceneID g_SceneID;
