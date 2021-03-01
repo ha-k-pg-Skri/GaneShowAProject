@@ -4,10 +4,48 @@
     <Filter Include="Src">
       <UniqueIdentifier>{85a411bf-9361-4915-b565-d957c47d087e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\Scene">
+      <UniqueIdentifier>{c4352a95-3616-4cfa-8e48-3a2f5a4a1172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Scene\TitleScene">
+      <UniqueIdentifier>{ac1e829d-8dfe-4c1b-ade1-16cf9da4d83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Scene\GameScene">
+      <UniqueIdentifier>{64369977-a18c-43cf-8876-1a82d8c8f79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Scene\ResultScene">
+      <UniqueIdentifier>{2ad554c2-d575-43fd-b62a-0270de7a30f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Main.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Scene\SceneManager.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\GameScene.cpp">
+      <Filter>Src\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\ResultScene.cpp">
+      <Filter>Src\Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\TitleScene.cpp">
+      <Filter>Src\Scene\TitleScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Scene\SceneManager.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\GameScene.h">
+      <Filter>Src\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\ResultScene.h">
+      <Filter>Src\Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\TitleScene.h">
+      <Filter>Src\Scene\TitleScene</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
